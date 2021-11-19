@@ -1,0 +1,25 @@
+Set up a base script that sets a seed, splits into test/training: Kai, will do in 10 minutes :)
+
+Run Diagnostic information on data, look at what's there: Jayaty
+
+Try a bunch of different model, report back together at the end
+
+Try to run LOOCV, see if performance is tolerable.  Else, K=10.
+
+-> Linear model [check for errors, non-normal error, heteroscedasticity, colinearity, etc]
+  -> Simple linear model: Ekin
+  -> Best subset selection: Ekin
+  -> Interactions/higher powers: Zach
+  -> Ridge/lasso regression: Morgan
+-> PCR [can fix colinearity, probably not other things like non-normal errors, non-normal dataset]
+  -> Jayaty
+
+-> Regression tree / bagging / random forests [think these are immune to non-normal errors, heteroscedasticity, colinearity -- go check & make sure]
+  -> Kai
+  
+  
+Timeframe:
+- Get models built by the 26th
+- Discuss again on the 27th, review different models, decide on one or two good ones
+- Spend most of that week writing
+- Polish up report in last couple days
